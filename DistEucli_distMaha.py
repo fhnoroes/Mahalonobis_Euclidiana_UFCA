@@ -69,7 +69,7 @@ plt.grid(True)
 plt.show()
 
 plt.figure(figsize=(8,6))
-plt.title("Gráfico beta0 por distância Mahalonobis (x,y)")
+plt.title("Gráfico beta0 por distância Mahalanobis (x,y)")
 plt.xlabel("Mahalanobis")
 plt.ylabel("Beta0")
 plt.plot(distMaha,beta0,marker='o',color="red")
